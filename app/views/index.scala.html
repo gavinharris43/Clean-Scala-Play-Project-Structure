@@ -1,7 +1,8 @@
-@(message: String)
+@()(implicit messages: MessagesProvider)
 
+    @main("Homepage") {
 
-@main("Welcome to Play") {
+        <h3> @messages.messages("testMessage")</h3>
+        <h4> @messages.messages("GreetingMessage")</h4>
 
-    @message
-}
+    }

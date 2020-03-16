@@ -1,6 +1,6 @@
 @import math.Pi
 @import people._
-@(name : String= "Gavin")(people : List[Person] = People.People.toList)
+@(name : String= "Gavin")(people : List[Person] = People.People.toList)(implicit messages: MessagesProvider)
 
 
 @main("Your Name is ") {
