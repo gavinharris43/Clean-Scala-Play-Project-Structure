@@ -1,0 +1,10 @@
+@import people._
+@display(person : Person) = {
+    <h3>@person.toString</h3>
+}
+
+<ul>
+@for(person <- People.People) {
+    @display(person)
+}
+</ul>

@@ -2,5 +2,7 @@ GET     /assets/*file               controllers.Assets.versioned(path="/public",
 GET     /hello                      controllers.HomeController.hello1
 GET     /                           controllers.HomeController.index
 GET     /name                           controllers.HomeController.name
+GET     /helloMsg                     controllers.HomeController.helloMsg
+GET     /function                     controllers.HomeController.function
 GET     /:hello                     controllers.HomeController.hello(hello :String)
 
