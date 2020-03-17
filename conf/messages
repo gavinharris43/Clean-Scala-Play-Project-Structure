@@ -1,2 +1,6 @@
 testMessage=This is in english
 GreetingMessage=Hello world
+login = Login
+password = Password
+username = Username
+logout = Logout
